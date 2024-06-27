@@ -1,0 +1,16 @@
+{
+    "name": "chak_configs",
+    "extensions": [
+        "esbenp.prettier-vscode",
+        "ritwickdey.LiveServer",
+        "formulahendry.auto-rename-tag",
+        "oderwat.indent-rainbow",
+        "yzhang.markdown-all-in-one"
+    ],
+    "settings": {
+        "files.autoSave": "onWindowChange",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "postCreateCommand": "npm install && npm start"
+}
